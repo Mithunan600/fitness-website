@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Red+Hat+Display:wght@400;700;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body{
+    background-color:  hsl(180, 12%, 11%);
+    color: white;
+}
+.headofdietp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ABDF3A;
+}
+.dpcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: center;
+    padding: 2.5rem;
+}
+.subheadofdietp{
+    margin-top: 2.5rem;
+
+}
+.subheadofdietp h3{
+    margin-bottom: 0.5rem;
+    color: #ABDF3A;
+}
+.subheadofdietp p{
+    margin-left: 2rem;
+}
+.dpbutton{
+    height: 2rem;
+    width: 6rem;
+    margin-left: 2rem;
+    background-color: #ABDF3A;
+    color: black;
+    border: 1px solid white;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 0.9rem;
+}
+.dpbutton i{
+    margin-left: 0.2rem;
+}
+.dpdropdown{
+    background-color:  hsl(180, 12%, 5%);
+    margin-left: 2rem;
+    width: 25vw;
+    display: none;
+    transition: display 1s ease-in;
+}
+.dpdropdown-popup{
+    display: block;
+
+}
+table {
+    width: 25vw;
+    height: auto;
+    border-collapse: collapse;
+    margin-top: 0.2px;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+   color: #ABDF3A;
+}
+.follow{
+    height: 2rem;
+    width: 6rem;
+    margin-left: 2rem;
+    background-color: #ABDF3A;
+    color: black;
+    border: 1px solid white;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 0.9rem;
+}
+.unfollow{
+    background-color: hsl(180, 12%, 8%);
+    color: aliceblue;
+}

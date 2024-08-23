@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dietplanner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styledietplan.css">
+</head>
+<header id="navbar">
+    <div class="logo">
+        <a href="index.html"><img src="logo.png" alt=""></a>
+        <a id="title" href="index.html">FIT & THRIVE</a>
+    </div>
+    <div class="dropdown">
+        <button class="head"><b>FITNESS</b></button>
+        <div class="dropdown-content">
+            <a id="impofex-card">IMPORTANCE OF EXERCISE</a>
+            <a href="https://www.google.com/maps/search/gyms+near+me/@12.8667009,77.6192441,15z/data=!3m1!4b1?entry=ttu" target="_blank">GYMS NEAR ME</a>
+            <a href="workPlanner.html">WORKOUT PLANNER</a>
+            <a href="https://www.muscleblaze.com/categories?itracker=w:home|products|;" target="_blank">PROTEIN AND SUPPLEMENTS</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="head"><b>DIET AND NUTRITION</b></button>
+        <div class="dropdown-content">
+            <a href="diet.html">IMPORTANCE OF NUTRITION</a>
+            <a href="dietplan.html">DIET PLANNER</a>
+            <a href="https://www.nike.com/in/" target="_blank">BUY OUR MERCHANDISE</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="head"><b><i class="fa-solid fa-user"></i> PROFILE</b></button>
+        <div class="dropdown-content">
+            <a id="signedincard">SIGN UP</a>
+            <a id="signincard">SIGN IN</a>
+            <a id="profilecard">MY PROFILE</a>
+            <a href=".\about.html">ABOUT</a>
+            <a href=".\cntctus.html">CONTACT US</a>
+        </div>
+    </div>
+</header>
+<body>
+    <div class="dpcontainer">
+        <div class="headofdietp">
+            <h1>DIET PLANNER</h1>
+        </div>
+        <div class="subheadofdietp">
+            <h3>High-Protein Diet:</h3>
+            <p>Focuses on consuming large amounts of protein to support muscle growth and repair.</p>
+            <p>Common foods include lean meats, fish, eggs, dairy products, beans, and protein supplements.</p>
+            <button class="dpbutton" id="dp1">View Plan <i class="fa-solid fa-caret-down"></i></button>
+            <div class="dpdropdown">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Food</th>
+                            <th>Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Chicken Breast</td>
+                            <td>100 grams</td>
+                        </tr>
+                        <tr>
+                            <td>Greek Yogurt</td>
+                            <td>100 grams</td>
+                        </tr>
+                        <tr>
+                            <td>Eggs</td>
+                            <td>1 large egg</td>
+                        </tr>
+                        <tr>
+                            <td>Tuna</td>
+                            <td>100 grams</td>
+                        </tr>
+                        <tr>
+                            <td>Cottage Cheese</td>
+                            <td>100 grams</td>
+                        </tr>
+                        <tr>
+                            <td>Lean Beef</td>
+                            <td>100 grams</td>
+                        </tr>
+                        <tr>
+                            <td>Lentils</td>
+                            <td>100 grams (cooked)</td>
+                        </tr>
+                        <tr>
+                            <td>Quinoa</td>
+                            <td>1 cup (cooked)</td>
+                        </tr>
+                        <tr>
+                            <td>Almonds</td>
+                            <td>100 grams</td>
+                        </tr>
+                        <tr>
+                            <td>Protein Shakes</td>
+                            <td>1 serving</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <button class="follow" id="a" data-plan="High-Protein Diet">Follow</button>
+        </div>
+        <div class="subheadofdietp">
+            <h3>Balanced Diet:</h3>
+            <p>Ensures a mix of all macronutrients: protein, carbohydrates, and fats.</p>
+            <p>Includes a variety of foods like lean meats, whole grains, vegetables, fruits, and healthy fats.</p>
+            <button class="dpbutton" id="dp2">View Plan <i class="fa-solid fa-caret-down"></i></button>
+            <div class="dpdropdown">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Food</th>
+                            <th>Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Avocado</td>
+                            <td>1 medium</td>
+                        </tr>
+                        <tr>
+                            <td>Salmon</td>
+                            <td>100 grams</td>
+                        </tr>
+                        <tr>
+                            <td>Eggs</td>
+                            <td>1 large egg</td>
+                        </tr>
+                        <tr>
+                            <td>Cheese</td>
+                            <td>100 grams</td>
+                        </tr>
+                        <tr>
+                            <td>Olive Oil</td>
+                            <td>1 tablespoon</td>
+                        </tr>
+                        <tr>
+                            <td>Chicken Thighs</td>
+                            <td>100 grams</td>
+                        </tr>
+                        <tr>
+                            <td>Spinach</td>
+                            <td>1 cup (raw)</td>
+                        </tr>
+                        <tr>
+                            <td>Almonds</td>
+                            <td>100 grams</td>
+                        </tr>
+                        <tr>
+                            <td>Butter</td>
+                            <td>1 tablespoon</td>
+                        </tr>
+                        <tr>
+                            <td>Bacon</td>
+                            <td>3 slices</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <button class="follow" id="b" data-plan="Balanced Diet">Follow</button>
+        </div>
+
+        <div class="subheadofdietp">
+            <h3>Plant-Based or Vegan Diet:</h3>
+            <p>Focuses on consuming plant-derived foods.</p>
+            <p>Includes vegetables, fruits, grains, nuts, and seeds; excludes all animal products. </p>
+            <p>Some may use plant-based protein supplements.</p>
+            <button class="dpbutton" id="dp3">View Plan <i class="fa-solid fa-caret-down"></i></button>
+            <div class="dpdropdown">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Food</th>
+                            <th>Quantity</</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tofu</td>
+                            <td>100 grams</td>
+                        </tr>
+                        <tr>
+                            <td>Lentils</td>
+                            <td>100 grams (cooked)</td>
+                        </tr>
+                        <tr>
+                            <td>Chickpeas</td>
+                            <td>100 grams (cooked)</td>
+                        </tr>
+                        <tr>
+                            <td>Quinoa</td>
+                            <td>1 cup (cooked)</td>
+                        </tr>
+                        <tr>
+                            <td>Spinach</td>
+                            <td>1 cup (raw)</td>
+                        </tr>
+                        <tr>
+                            <td>Almonds</td>
+                            <td>100 grams</td>
+                        </tr>
+                        <tr>
+                            <td>Chia Seeds</td>
+                            <td>2 tablespoons</td>
+                        </tr>
+                        <tr>
+                            <td>Broccoli</td>
+                            <td>1 cup (cooked)</td>
+                        </tr>
+                        <tr>
+                            <td>Tempeh</td>
+                            <td>100 grams</td>
+                        </tr>
+                        <tr>
+                            <td>Edamame</td>
+                            <td>1 cup (cooked)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <button class="follow" id="c" data-plan="Plant-Based or Vegan Diet">Follow</button>
+        </div>
+    </div>
+    <script src="scriptdp.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

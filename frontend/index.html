@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Fitness</title>
+</head>
+<header id="navbar">
+    <div class="logo">
+    <a href="index.html"><img src="logo.png" alt=""></a>
+    <a id="title" href="index.html">FIT & THRIVE</a>
+    </div>
+    
+    <div class="dropdown">
+        <button class="head"><b>FITNESS</b></button>
+        <div  class="dropdown-content">
+            <a id="impofex-card">IMPORTANCE OF EXCERCISE</a>
+            <a href="https://www.google.com/maps/search/gyms+near+me/@12.8667009,77.6192441,15z/data=!3m1!4b1?entry=ttu" target="_blank">GYMS NEAR ME</a>
+            <a href="workPlanner.html">WORKOUT PLANNER</a>
+            <a href="https://www.muscleblaze.com/categories?itracker=w:home|products|;" target="_blank">PROTEIN AND SUPPLEMENTS</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="head"><b>DIET AND NUTRITION</b></button>
+        <div class="dropdown-content">
+            <a href="diet.html">IMPORTANCE OF NUTRITION</a>
+            <a href="dietplan.html">DIET PLANNER</a>
+            <a href="https://www.nike.com/in/" target="_blank">BUY OUR MERCHANDISE</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="head"><b><i class="fa-solid fa-user"></i> PROFILE</b></button>
+        <div class="dropdown-content">
+            <a id="signedincard">SIGN UP</a>
+            <a id="signincard">SIGN IN</a>
+            <a id="profilecard">MY PROFILE</a>
+            <a id="aboutcard">ABOUT</a>
+            <a id="logout">LOGOUT</a>
+        </div>
+    </div>
+</header>
+<body>
+   <div class="container">
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Ask a question..." style="padding: 10px; width: 300px; border-radius: 25px; border: 1px solid #000000; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <button id="searchButton" style="padding: 10px; border-radius: 25px; border: 1px solid #383838; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">Submit</button>
+    </div>
+<div id="popup1" class="popup-container1">
+    <div class="popup-content1">
+        <span class="close-button1" onclick="closePopup1()">&times;</span>
+        <h2>FIT AND THRIVE</h2>
+        <div id="responseText" class="response-text"></div>
+    </div>
+</div>
+
+<div id="aiResponse" style="text-align: center; margin-top: 20px;"></div>
+
+    
+    
+        <h2 class="subtitle">
+            IMPROVE YOUR HEALTH
+        </h2>
+        
+        <div class="signup">
+            <button id="close">x</button>
+            <div class="login"><h2>Login</h2></div>
+            <h3>Email</h3>
+            <input type="email" placeholder="Enter Email" id="emai">
+            <h3>Password</h3>
+            <input type="email" placeholder="Enter Password" id="passwor">
+            <button id="signinbut">Sign-in</button>
+            <a href="">Forgot Password?</a>
+        </div>
+        <div class="signedin">
+            <button id="close2">x</button>
+            <div class="login"><h2>Sign-in</h2></div>
+            <div class="personalinfo">
+                <h3>Name</h3>
+                <input type="text" placeholder="Enter Name" id="name">
+                <h3>Height(cm)</h3>
+                <input type="text" placeholder="Enter Height" id="height">
+                <h3>Weight(Kg)</h3>
+                <input type="text" placeholder="Enter Weight" id="weight">
+            </div>
+            <div class="personalinfo2">
+                <h3>Email</h3>
+                <input type="email" placeholder="Enter Email" id="email">
+                <h3>Password</h3>
+                <input type="email" placeholder="Enter Password" id="password">
+                </div>
+                <button id="signinbut1">Sign-in</button>  
+            </div>
+
+            <div class="profileinfo">
+                <button id="close3">x</button>
+                <div class="profilepic">
+                    <i class="fa-solid fa-user"></i> 
+                </div>
+                <div class="info">
+                </div>
+            </div>
+
+            <!-- Importance of EXCERCISE -->
+            <div class="impofex">
+                <button id="close4">x</button>
+                <div class="headofex">
+                    <h2>IMPORTANCE OF EXCERCISE</h2>
+                </div>
+                <div class="subheadofex">
+                    <h3>BENIFITS OF EXCERCISE</h3>
+
+                    <p>Exercise has a lot of benefits in today’s world. First of all, it helps in maintaining your weight. Moreover, it also helps you reduce weight if you are overweight. It is because you burn calories when you exercise. Further, it helps in developing your muscles. Thus, the rate of your body will increases which helps to burn calories. Moreover, it also helps in improving the oxygen level and blood flow of the body. When you exercise daily, your brain cells will release frequently. This helps in producing cells in the hippocampus. Moreover, it is the part of the brain which helps to learn and control memory. The concentration level in your body will improve which will ultimately lower the danger of disease like Alzheimer’s. In addition, you can also reduce the strain on your heart through exercise. Finally, it controls the blood sugar levels of your body so it helps to prevent or delay diabetes.</p>
+                </div>
+                <div class="subheadofex">
+                    <h3>IMPORTANCE OF REGULAR EXCERCISE</h3>
+
+                    <p>Exercise is basically any physical activity that we perform on a repetitive basis for relaxing our body and taking away all the mental stress. It is important to do regular exercise. When you do this on a daily basis, you become fit both physically and mentally. Moreover, not exercising daily can make a person susceptible to different diseases. Thus, just like eating food daily, we must also exercise daily. The importance of exercise essay will throw more light on it.</p>
+                </div>
+                <div class="subheadofex">
+                    <h3>CONCLUSION</h3>
+                    
+                    <p>In order to live life healthily, it is essential to exercise for mental and physical development. Thus, exercise is important for the overall growth of a person. It is essential to maintain a balance between work, rest and activities. So, make sure to exercise daily.</p>
+                </div>
+            </div>
+
+            <div class="about">
+                <div class="abthead">
+                    <h2>ABOUT</h2>
+                    <button id="close5">x</button>
+                </div>
+                <div class="subheadabt">
+                    <h3>INTRODUCTION</h3>
+                    <p>We provide you Fitness and Nutrition plans.</p>
+                        <p>your daily routine for the better using our free to use website by signing up now.
+                        </p>
+                </div>
+                <div class="subheadabt">
+                    <h3>FITNESS</h3>
+                    <p>We design WORKOUT plans for you according to your desired goal.</p>
+                    <p>Change your daily routine for the better using our free to use website by signing up now.</p>
+                </div>
+                <div class="subheadabt">
+                    <h3>DIET</h3>
+                    <p>We design DIET plans for you according to your desired goal.</p>
+                    <p>Change your daily routine for the better using our free to use website by signing up now.</p>
+                </div>
+            </div>
+        
+        
+        <H1 class="title">
+            MAKE PROGRESS
+        </H1>
+        <p class="subtitle2">
+            START WHERE YOU ARE .  USE WHAT YOU HAVE . DO WHAT YOU CAN
+        </p>
+        <button id="getstarted">Get Started <i class="fa-solid fa-arrow-right"></i> </button>
+   </div>
+   <hr class="linebreak">
+   <div class="mainn">
+        <h1 class="feat">FEATURES</h1>
+        <div class="featboss">
+            <h1 class="feat2">MAINTAIN </h1>
+            <h1 class="feat3">A HEALTHY LIFESTYLE </h1>
+        </div>
+        <a href="workPlanner.html" class="planner-cards">
+        <div class="workoutplan" >
+            <img src="program1.png" alt="img" class="cardimg">
+            <h3 >WORKOUT</h3>
+            <h3 id="h31">PLANNER</h3>
+            <p id="p1">Generate Workout </p>
+                <p> plans specifically </p>
+                    <p> designed to meet </p>
+                        <p> your desired goal.</p>
+       </div>
+        </a>
+       <a href="dietplan.html" class="planner-cards">
+       <div class="workoutplan" id="dietplanner-card">
+        <img src="program2.png" alt="img" class="cardimg">
+        <h3 >DIET</h3>
+        <h3 id="h31">PLANNER</h3>
+        <p id="p1">Generate Diet </p>
+            <p> schedules specifically </p>
+                <p>to meet your</p>
+                    <p>desired goal.</p>
+        </div>
+        </a>
+   </div> 
+   <hr class="linebreak">
+   <footer>
+    <div id="fpanel2">
+        <ul>
+            <p>Get to Know us</p>
+            <a href="">About Us</a>
+            <a href="">Careers</a>
+            <a href="">Press Releases</a>
+            <a href="">Amazon Science</a>
+
+        </ul>
+        <ul>
+            <p>Get to Know us</p>
+            <a href="">About Us</a>
+            <a href="">Careers</a>
+            <a href="">Press Releases</a>
+            <a href="">Amazon Science</a>
+        </ul>
+        <ul>
+            <p>Get to Know us</p>
+            <a href="">About Us</a>
+            <a href="">Careers</a>
+            <a href="">Press Releases</a>
+            <a href="">Amazon Science</a>
+        </ul>
+        <ul>
+            <p>Get to Know us</p>
+            <a href="">About Us</a>
+            <a href="">Careers</a>
+            <a href="">Press Releases</a>
+            <a href="">Amazon Science</a>
+        </ul>
+    </div>
+    <div class="contactus">
+        <h3>Customer Care:</h3>
+        <p>Emai Us: FitAndThrive@care.co.in<p>
+        <p>Contact Us:080 6969 6969<p>
+    </div>
+</footer>
+
+   
+    
+    <script src="script.js" defer></script>
+    <script src="scriptdp.js" defer></script>
+</body>
+</html>

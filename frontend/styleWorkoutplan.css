@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Red+Hat+Display:wght@400;700;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body{
+    background-color:  hsl(180, 12%, 11%);
+    color: white;
+}
+.containerwp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: center;
+    padding: 2.5rem;
+}
+.headofworkoutp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ABDF3A;
+}
+.plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.plan h2{
+    margin-bottom: 0.5rem;
+    color: #ABDF3A;
+}
+.wpbutton{
+    height: 2rem;
+    width: 6rem;
+    background-color: #ABDF3A;
+    color: black;
+    border: 1px solid white;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 0.9rem;
+}
+
+table {
+    width: 25vw;
+    height: auto;
+    border-collapse: collapse;
+    margin-top: 0.2px;
+    background-color:  hsl(180, 12%, 5%)
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+   color: #ABDF3A;
+}
+.tabless{
+    justify-content: space-evenly;
+    align-items: center;
+    display: none;
+    margin-top: 1rem;
+}
+.tables-popup{
+    display: flex;
+}
+.tabless h3{
+    color: white    ;
+}
+.followwp{
+    height: 2rem;
+    width: 6rem;
+    background-color: #ABDF3A;
+    color: black;
+    border: 1px solid white;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 1.2rem;
+}
+.tablehead{
+    margin-left: 3rem;
+}
+.unfollow{
+    background-color: hsl(180, 12%, 8%);
+    color: aliceblue;
+}
+

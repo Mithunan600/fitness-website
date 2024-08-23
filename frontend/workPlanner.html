@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Planner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleWorkoutplan.css">
+</head>
+<header id="navbar">
+    <div class="logo">
+    <a href="index.html"><img src="logo.png" alt=""></a>
+    <a id="title" href="index.html">FIT & THRIVE</a>
+    </div>
+    
+    <div class="dropdown">
+        <button class="head"><b>FITNESS</b></button>
+        <div  class="dropdown-content">
+            <a id="impofex-card">IMPORTANCE OF EXCERCISE</a>
+            <a href="https://www.google.com/maps/search/gyms+near+me/@12.8667009,77.6192441,15z/data=!3m1!4b1?entry=ttu" target="_blank">GYMS NEAR ME</a>
+            <a href="workPlanner.html">WORKOUT PLANNER</a>
+            <a href="https://www.muscleblaze.com/categories?itracker=w:home|products|;" target="_blank">PROTEIN AND SUPPLEMENTS</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="head"><b>DIET AND NUTRITION</b></button>
+        <div class="dropdown-content">
+            <a href="diet.html">IMPORTANCE OF NUTRITION</a>
+            <a href="dietplan.html">DIET PLANNER</a>
+            <a href="https://www.nike.com/in/" target="_blank">BUY OUR MERCHANDISE</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="head"><b><i class="fa-solid fa-user"></i> PROFILE</b></button>
+        <div class="dropdown-content">
+            <a id="signedincard">SIGN UP</a>
+            <a id="signincard">SIGN IN</a>
+            <a id="profilecard">MY PROFILE</a>
+            <a href=".\about.html">ABOUT</a>
+            <a href=".\cntctus.html">CONTACT US</a>
+        </div>
+    </div>
+</header>
+<body>
+    <div class="containerwp">
+        <div class="headofworkoutp">
+            <h1>WORKOUT PLANNER</h1>
+        </div>
+        <div class="plan">
+            <h2>Push-Pull-Legs (PPL):</h2>
+            <p>Divides workouts into three categories: push exercises (chest, shoulders, triceps), pull exercises (back, biceps), and leg exercises (quads, hamstrings, calves).</p>
+            <p>Typically follows a 3-day or 6-day weekly cycle.</p>
+            <button class="wpbutton">View Plan <i class="fa-solid fa-caret-down"></i></button>
+
+            <div class="tabless">
+                    <div class="tablehead">
+                        <h3>Push Day :</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Exercise Name</th>
+                                <th>Sets x Reps</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Bench Press</td>
+                                <td>4x8</td>
+                            </tr>
+                            <tr>
+                                <td>Shoulder Press</td>
+                                <td>3x10</td>
+                            </tr>
+                            <tr>
+                                <td>Tricep Dips</td>
+                                <td>3x12</td>
+                            </tr>
+                            <tr>
+                                <td>Bicep Curls</td>
+                                <td>3x15</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tablehead">
+                    <h3>Pull Day :</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Exercise Name</th>
+                                <th>Sets x Reps</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Pull-Ups</td>
+                                <td>4x8</td>
+                            </tr>
+                            <tr>
+                                <td>Deadlifts</td>
+                                <td>3x10</td>
+                            </tr>
+                            <tr>
+                                <td>Bent Over Rows</td>
+                                <td>3x12</td>
+                            </tr>
+                            <tr>
+                                <td>Face Pulls</td>
+                                <td>3x15</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tablehead">
+                    <h3>Leg Day :</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Exercise Name</th>
+                                <th>Sets x Reps</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Squats</td>
+                                <td>4x8</td>
+                            </tr>
+                            <tr>
+                                <td>Lunges</td>
+                                <td>3x10</td>
+                            </tr>
+                            <tr>
+                                <td>Leg Press</td>
+                                <td>3x12</td>
+                            </tr>
+                            <tr>
+                                <td>Calf Raises</td>
+                                <td>3x15</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <button class="followwp" id="a">Follow</button>
+            
+        </div>
+        <div class="plan">
+            <h2>Full-Body Workout:</h2>
+            <p>Engages all major muscle groups in each workout session.</p>
+            <p>Ideal for beginners and those with limited time to train, typically done 2-3 times per week.</p>
+            <button class="wpbutton">View Plan <i class="fa-solid fa-caret-down"></i></button>
+
+            <div class="tabless">
+                    <div class="tablehead">
+                        <h3>Chest:</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Exercise Name</th>
+                                    <th>Sets x Reps</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Bench Press</td>
+                                    <td>4x8</td>
+                                </tr>
+                                <tr>
+                                    <td>Incline Dumbbell Press</td>
+                                    <td>3x10</td>
+                                </tr>
+                                <tr>
+                                    <td>Chest Flyes</td>
+                                    <td>3x12</td>
+                                </tr>
+                                <tr>
+                                    <td>Push-Ups</td>
+                                    <td>3x15</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                </div>
+                <div class="tablehead">
+                    <h3>Back & Lats :</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Exercise Name</th>
+                                <th>Sets x Reps</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Pull-Ups</td>
+                                <td>4x8</td>
+                            </tr>
+                            <tr>
+                                <td>Deadlifts</td>
+                                <td>3x10</td>
+                            </tr>
+                            <tr>
+                                <td>Lat Pulldowns</td>
+                                <td>3x12</td>
+                            </tr>
+                            <tr>
+                                <td>Seated Rows</td>
+                                <td>3x15</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tablehead">
+                    <h3>Leg Day :</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Exercise Name</th>
+                                <th>Sets x Reps</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Squats</td>
+                                <td>4x8</td>
+                            </tr>
+                            <tr>
+                                <td>Lunges</td>
+                                <td>3x10</td>
+                            </tr>
+                            <tr>
+                                <td>Leg Press</td>
+                                <td>3x12</td>
+                            </tr>
+                            <tr>
+                                <td>Calf Raises</td>
+                                <td>3x15</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="tabless">
+                <div class="tablehead">
+                    <h3>Shoulders :</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Exercise Name</th>
+                                <th>Sets x Reps</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Shoulder Press</td>
+                                <td>4x8</td>
+                            </tr>
+                            <tr>
+                                <td>Lateral Raises</td>
+                                <td>3x10</td>
+                            </tr>
+                            <tr>
+                                <td>Front Raises</td>
+                                <td>3x12</td>
+                            </tr>
+                            <tr>
+                                <td>Rear Delt Flyes</td>
+                                <td>3x15</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+            <div class="tablehead">
+                <h3>Biceps/Triceps :</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Exercise Name</th>
+                            <th>Sets x Reps</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bicep Curls</td>
+                            <td>4x8</td>
+                        </tr>
+                        <tr>
+                            <td>Tricep Dips</td>
+                            <td>3x10</td>
+                        </tr>
+                        <tr>
+                            <td>Hammer Curls</td>
+                            <td>3x12</td>
+                        </tr>
+                        <tr>
+                            <td>Tricep Pushdowns</td>
+                            <td>3x15</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="tablehead">
+                <h3>Core:</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Exercise Name</th>
+                            <th>Sets x Reps</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Plank</td>
+                            <td>3x1 min</td>
+                        </tr>
+                        <tr>
+                            <td>Russian Twists</td>
+                            <td>3x20</td>
+                        </tr>
+                        <tr>
+                            <td>Leg Raises</td>
+                            <td>3x15</td>
+                        </tr>
+                        <tr>
+                            <td>Bicycle Crunches</td>
+                            <td>3x20</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+            <button class="followwp" id="b">Follow</button>
+            
+        </div>
+
+        <div class="plan">
+            <h2>Upper/Lower Split:</h2>
+            <p>Divides workouts into upper body and lower body sessions.</p>
+            <p>Often follows a 4-day weekly cycle, with two upper body and two lower body workouts per week.</p>
+            <button class="wpbutton">View Plan <i class="fa-solid fa-caret-down"></i></button>
+
+            <div class="tabless">
+                    <div class="tablehead">
+                        <h3>Upper Split :</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Exercise Name</th>
+                                    <th>Sets x Reps</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Bench Press</td>
+                                    <td>4x8</td>
+                                </tr>
+                                <tr>
+                                    <td>Bent Over Rows</td>
+                                    <td>4x8</td>
+                                </tr>
+                                <tr>
+                                    <td>Shoulder Press</td>
+                                    <td>3x10</td>
+                                </tr>
+                                <tr>
+                                    <td>Pull-Ups</td>
+                                    <td>3x10</td>
+                                </tr>
+                                <tr>
+                                    <td>Bicep Curls</td>
+                                    <td>3x12</td>
+                                </tr>
+                                <tr>
+                                    <td>Tricep Dips</td>
+                                    <td>3x12</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                </div>
+                <div class="tablehead">
+                    <h3>Lower Split :</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Exercise Name</th>
+                                <th>Sets x Reps</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Squats</td>
+                                <td>4x8</td>
+                            </tr>
+                            <tr>
+                                <td>Deadlifts</td>
+                                <td>4x8</td>
+                            </tr>
+                            <tr>
+                                <td>Leg Press</td>
+                                <td>3x10</td>
+                            </tr>
+                            <tr>
+                                <td>Lunges</td>
+                                <td>3x10</td>
+                            </tr>
+                            <tr>
+                                <td>Hamstring Curls</td>
+                                <td>3x12</td>
+                            </tr>
+                            <tr>
+                                <td>Calf Raises</td>
+                                <td>3x15</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <button class="followwp" id="c">Follow</button>
+            
+        </div>
+
+
+    </div>
+    
+
+
+
+    <script src="scriptwp.js"></script>
+</body>
+</html>

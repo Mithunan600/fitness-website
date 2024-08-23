@@ -1,0 +1,641 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Red+Hat+Display:wght@400;700;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+#navbar{
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  hsl(180, 12%, 8%);
+    color: hsl(180, 4%, 72%);
+}
+#navbar  img{
+    height: 2.2rem;
+    margin-bottom: 10px;
+}
+#title{
+    text-decoration: none;
+    color: hsl(180, 4%, 100%);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 0.5rem;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+.container{
+    background-image: url("gym_bg1.0.jpg");
+    background-size: cover;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 33rem;
+}
+.dropdown button{
+    width: auto;
+    background: transparent;
+    height: 2.2rem;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.3rem;
+    color: hsl(180, 4%, 68%);
+    margin-right: 3rem;
+    font-weight: 600;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+
+}
+.dropdown button:hover{
+    color: hsl(180, 4%, 100%);
+}
+#profile:hover{
+    color: hsl(180, 4%, 100%);
+    font-size: 1.3rem;
+}
+.dropdown button i{
+    color: hsl(79, 72%, 55%) ;
+    font-size: 1.2rem;
+    margin-right: 0.2rem;
+}
+
+.dropdown-content{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute ;
+    overflow: auto;
+    padding-top: 0.5rem;
+}
+.dropdown-content a{
+    height: 2rem;
+    text-decoration: none;
+    font-size: 1rem;
+    width: 15rem;
+    color: white;
+    padding: 5px;
+    background-color:hsl(180, 12%, 8%);
+    cursor: pointer;
+}
+.dropdown-content a:hover{
+    color: black;
+    background-color:hsl(79, 72%, 55%);
+}
+.subtitle{
+    color: hsl(79, 72%, 55%) ;
+    letter-spacing: 1.5px;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.title{
+    color: hsl(180, 4%, 100%);
+    margin-top: 1rem;
+    font-size: 5rem;
+    font-weight: 800;
+    letter-spacing: 2.2px;
+}
+.subtitle2{
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+#getstarted{
+    width: 11rem;
+    height:3.3rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: hsl(79, 72%, 50%) ;
+    color: hsl(180, 12%, 8%);
+    border: 1px solid hsl(180, 4%, 68%);
+    margin-top: 2rem;
+    border-radius: 2px;
+}
+#getstarted i{
+    margin-left: 3px;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+#getstarted:hover{
+    color: hsl(180, 4%, 68%);
+    background-color: hsl(180, 12%, 8%);
+    border: 1px solid hsl(180, 4%, 68%);
+}
+.mainn{
+    background-color: hsl(180, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65rem;
+}
+.signup{
+    height: 20rem;
+    width: 24rem;
+    position: absolute;
+    top: 10rem;
+    background-color: white;
+    color: hsl(180, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    border-radius: 4px;
+    transform: translate(-3%,-90%) scale(0.1);
+    visibility: hidden;
+    transition:transform 0.5s;
+}
+.signup-popup{
+    transform: translate(-3%,-90%) scale(1);
+    visibility: visible;
+    margin-top: 20rem;
+}
+
+.signup h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: hsl(180, 12%, 8%);
+}
+.signup input{
+    height: 2.4rem;
+    padding-left:0.5rem ;
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+    border: 1px solid hsl(180, 12%, 8%);
+    border: none;
+    border-bottom: 1px solid black;
+}
+#close{
+    height: 1.4rem;
+    width: 1.4rem;
+    font-weight: 600;
+    display: flex;
+    font-size: 1.1rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 24rem;
+    bottom: 1.4rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+#signinbut{
+    border-radius: 4px;
+    height: 2.4rem;
+    padding-left:0.5rem ;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    background-color: hsl(79, 72%, 50%) ;
+    color: hsl(180, 12%, 8%);
+    border: 1px solid white;
+}
+#signinbut1{
+    border-radius: 4px;
+    height: 2.4rem;
+    padding-left:0.5rem ;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    background-color: hsl(79, 72%, 50%);
+    color: hsl(180, 12%, 8%);
+    border: 1px solid white;
+}
+#signinbut:hover{
+    color: hsl(180, 4%, 68%);
+    background-color: hsl(180, 12%, 8%);
+    border: 1px solid hsl(180, 4%, 68%);
+}
+#signinbut1:hover{
+    color: hsl(180, 4%, 68%);
+    background-color: hsl(180, 12%, 8%);
+    border: 1px solid hsl(180, 4%, 68%);
+}
+.signup a{
+    text-align: right;
+    font-weight: 500;
+    cursor: pointer;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: rem;
+    position: relative;
+    bottom: 1rem;
+}
+.signedin{
+    background-color: aliceblue;
+    height: 18rem;
+    width: 24rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30rem;
+    padding: 2rem;
+    border-radius: 4px;
+    background-color: white;
+    color: hsl(180, 12%, 8%);
+    transform: translate(-3%,-90%) scale(0.1);
+    visibility: hidden;
+    transition:transform 0.5s;
+}
+.signedin-popup{
+    transform: translate(-3%,-90%) scale(1);
+    visibility: visible;
+    margin-top: 56rem;
+}
+.personalinfo h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: hsl(180, 12%, 8%);
+}
+.personalinfo2 h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: hsl(180, 12%, 8%);
+}
+.personalinfo2 input{
+    height: 2.4rem;
+    padding-left:0.5rem ;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 0.3rem;
+    border: 1px solid hsl(180, 12%, 8%);
+    border: none;
+    border-bottom: 1px solid hsl(180, 12%, 8%);
+}
+.personalinfo input{
+    height: 2.4rem;
+    padding-left:0.5rem ;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 0.3rem;
+    border: 1px solid hsl(180, 12%, 8%);
+    border: none;
+    border-bottom: 1px solid hsl(180, 12%, 8%);
+}
+.profileinfo{
+    height: 24rem;
+    width: 17rem;
+    background-color: hsl(180, 12%, 8%);
+    position: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    padding: 2rem;
+    left: 61rem;
+
+    border: 2px solid white;
+    transform: translate(100%,0%) scale(0.8);
+    transition: transform 0.5s ease-in;
+    visibility: hidden;
+}
+.editbut{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.editbut button{
+    background-color:#ABDF3A;
+    color: black;
+    height: 2rem;
+    width: 4rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+}
+.impofex{
+    background-color: hsl(180, 12%, 8%);
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    height:78vh;
+    padding: 0 2rem;
+    border-radius: 4px;
+    transform: translate(0%,100%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.5s;
+}
+.impofex-popup{
+    transform: translate(0%,-95%) scale(1);
+    visibility: visible;
+    margin-top: 56rem;
+}
+.headofex{
+    color: #ABDF3A;
+}
+.subheadofex h3{
+    color: #ABDF3A;
+}
+#close4{
+    height: 1.4rem;
+    width: 1.4rem;
+    font-size: 1.4rem;
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 38.3rem;
+    bottom: 0.5rem;
+}
+.headofex{
+    margin-bottom: rem;
+}
+.about{
+    background-color: hsl(180, 12%, 8%);
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    height:70vh;
+    padding: 0 2rem;
+    border-radius: 4px;
+    transform: translate(0%,100%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.5s;
+}
+.about-popup{
+    transform: translate(0%,0%) scale(1);
+    visibility: visible;
+
+}
+.abthead{
+    color: #ABDF3A;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+.subheadabt h3{
+    color: #ABDF3A;
+    margin-bottom: 0.2rem;
+}
+#close5{
+    height: 1.4rem;
+    width: 1.4rem;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: aliceblue;
+    border: none; 
+    position: relative;
+    left: 14rem;
+    bottom: 1rem;
+}
+#close3{
+    height: 1.4rem;
+    width: 1.4rem;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+    position: relative;
+    left: 16.5rem;
+    bottom: 1rem;
+    cursor: pointer;
+}
+.profileinfo-popup{
+    transform: translate(0%,0%) scale(1);
+    visibility: visible;
+}
+.profilepic{
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-size: 3rem;
+    border-radius: 50%;
+    background-color: hsla(60, 2%, 11%, 0.07);
+    margin-left: 6.2rem;
+}
+.info{
+    margin-top: 1rem;
+}
+.info h3{
+    margin: 0.7rem 0;
+    font-weight: 500;
+}
+.profileinfo:hover{
+    background-color: hsl(79, 72%, 50%);
+    color: black;
+}
+.profileinfo:hover #close3{
+    color: black;
+}
+.profileinfo:hover .editbut button{
+    background-color: hsl(180, 12%, 8%);
+    color: white;
+}
+#close2{
+    height: 1.4rem;
+    width: 1.4rem;
+    font-weight: 600;
+    display: flex;
+    font-size: 1.1rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 24rem;
+    bottom: 1.4rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.signedin a{
+    text-align: right;
+}
+.feat{
+    color: hsl(79, 72%, 50%) ;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: 0rem;
+}
+.featboss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feat2{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    -webkit-text-stroke: 2px hsl(180, 4%, 68%);
+    color: transparent;
+    display: block;
+}
+.feat3{
+    color: hsl(180, 4%, 100%);
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-left: 0.55rem;
+}
+.workoutplan{
+    height: 17rem;
+    width: 11rem;
+    background-color: hsla(79, 6%, 64%, .07);
+    color: aliceblue;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    transition: 0.5s,border 0.3s ;
+    cursor: pointer;
+    border-radius: 1px;
+}
+.workoutplan img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    right:3.5rem;
+    bottom: 2rem;
+    padding: 0.2rem;
+}
+.workoutplan h3{
+    font-size: 1.2rem;
+
+}
+#h31{
+    margin-bottom: 1rem;
+}
+#p1{
+   margin-top: 1.2rem;
+}
+.workoutplan p{
+    font-weight: 500;
+}
+.workoutplan:hover{
+    background-color: hsl(79, 72%, 40%);
+    border: 2px solid hsl(79, 97%, 77%);
+    color: hsl(180, 12%, 8%);
+}
+.workoutplan:hover .cardimg{
+    background-color: hsl(79, 97%, 77%);
+}
+
+#fpanel2{
+    background-color:  hsl(180, 12%, 8%);
+    height: 13rem;
+    color: white;
+    display:flex ;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    font-weight: 600;
+}
+ul{
+    margin-top: 2.5rem;
+}
+ul a{
+    color:#dddddd;
+    font-size: 0.85rem;
+    font-weight: 400;
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.planner-cards{
+    text-decoration: none;
+}
+.contactus{
+    background-color: hsl(180, 6%, 6%);
+    color: hsl(180, 4%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    font-size: 1rem;
+    padding: 1rem;
+}
+.search-container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* CSS for the popup container */
+.popup-container1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Ensure it's above other content */
+}
+
+/* CSS for the popup content */
+.popup-container1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto; /* Enable vertical scrolling */
+    z-index: 9999; /* Ensure it's above other content */
+}
+
+.popup-content1 {
+    background: #fff;
+    color: #000;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 80%; /* Adjust width as needed */
+    text-align: center;
+    position: relative;
+    max-height: 80%; /* Limit maximum height */
+    overflow-y: auto; /* Enable scrolling if content exceeds height */
+}
+
+.close-button1 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #000;
+}
+
+.response-text {
+    margin-top: 20px; /* Adjust spacing */
+}
